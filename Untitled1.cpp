@@ -44,3 +44,18 @@ int main(){
 		
 		
 		}
+	int a,b; 
+		printf("Nhap so thu 1: ");
+		scanf("%d",&a);
+		printf("Nhap so thu 2: ");
+		scanf("%d",&b);
+		if(a < b){
+			printf("So lon nhat la: %d",b);
+		}
+		else if (a == b){
+		
+		printf("Ca hai so bang nhau");
+	}
+	else 
+	printf("So lon nhat la: %d", a);
+	} 
