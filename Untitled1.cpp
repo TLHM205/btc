@@ -59,3 +59,30 @@ int main(){
 	else 
 	printf("So lon nhat la: %d", a);
 	} 
+int a,b;
+char tt;
+printf("nhap bieu thuc don gian: ");
+scanf("%d%c%d", &a,&tt,&b);
+switch(tt){
+	case '+': 
+	printf("%d %c %d = %d",a,tt,b,a+b);
+		break; 
+	case '-':
+		printf("%d %c %d = %d",a,tt,b,a-b);
+			break; 
+		case '*':
+			printf("%d %c %d = %d",a,tt,b,a*b);
+				break; 
+			case '/':
+				if (b!=0)
+					printf("%d %c %d = %d",a,tt,b,a/b);
+			
+				else 
+					printf("Khong chia dc cho 0");
+
+					break; 
+					default:
+		printf("Key cua ban sai roi"); 
+}
+	
+}
